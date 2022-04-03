@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header section start */
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+nav a:hover{
+  background-color: black;
+  transition: linear 0.5s;
+}
+ul li{
+  list-style: none;
+  margin-right: 20px;
+}
+ul{
+  display: flex;
+  background-color: blue;
+  padding-top: 30px;
+}
+/* header section end */
+
+
+/* Second section start */
+.banner img{
+  width: 400px;
+  height: 300px;
+}
+.text-title{
+  width: 300px;
+}
+.title{
+  position: relative;
+  font-size: 40px;
+  color: white;
+  margin-top: 50px;
+  left: 150px;
+}
+.button{
+  position: relative;
+  left: 150px;
+  top: 10px;
+  font-size: 20px;
+  background-color: brown;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.button:hover{
+  background-color: gray;
+  transition: linear 0.5s;
+}
+.section-title{
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+/* Second section end */
+
+
+/* Third section  start */
+.players{
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.player img{
+  width: 300px;
+  border-radius: 5px;
+}
+.player-datails{
+  width: 350px;
+}
+.player-datails .perapraph{
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  
+}
+main{
+  margin-left: 5%;
+   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Third section  end */
+
+/* Four section start */
+.match-section{
+  position: relative;
+  left: 5%;
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.212);
+  border-radius: 5px;
+}
+.match-datails{
+ width: 400px;
+}
+.match img{
+  width: 350px;
+}
+.match-title{
+  font-size: 50px;
+  padding: 10px;
+}
+.praga{
+  padding: 10px;
+  line-height: 20px;
+}
+/* Four section end */
+
+/* Footer section start */
+
+.footer{
+  width: 90%;
+  position: relative;
+  left: 5%;
+  margin-top: 30px;
+  text-align: center;
+}
+.logo img{
+  width: 400px;
+  position: relative;
+  top: -15px;
+}
+.icon{
+  font-size: 20px;
+}
+.icon .fa-brands{
+  margin: 0 10px;
+  position: relative;
+  top: -10px;
+}
+.copyright{
+  font-size: 20px;
+}
+/* Footer section end */
+
+
+
+/* Media Quary start */
+
+@media (max-width:688px) {
+
+  .section-title{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    }
+    .title{
+      position: relative;
+      left: 90px;
+    }
+    nav a{
+      font-size: 17px;
+      padding: 10px 18px;
+    }
+    .match-section{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (min-width:688px) and (max-width:992px) {
+    .title{
+      left: 80px;
+    }
+  }
